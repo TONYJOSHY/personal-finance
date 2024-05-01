@@ -23,7 +23,7 @@
     </button>
   </div>
 </mat-toolbar>
-<mat-sidenav-container class="sidenav-container">
+<mat-sidenav-container>
   <mat-sidenav #drawer class="sidenav" fixedTopGap
       [attr.role]="(isHandset$ | async) ? 'dialog' : 'navigation'"
       [mode]="(isHandset$ | async) ? 'over' : 'push'"

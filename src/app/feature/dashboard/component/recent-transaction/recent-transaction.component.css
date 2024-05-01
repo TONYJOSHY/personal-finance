@@ -1,0 +1,9 @@
+.image-class{
+    width: 3rem;
+    margin-right: 1rem;
+}
+
+.border-class{
+    border: 1px solid #6693ce;
+    border-radius: 10px;
+}
