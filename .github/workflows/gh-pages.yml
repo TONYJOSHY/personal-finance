@@ -1,4 +1,4 @@
-name: GitHub Pages
+name: Personal finance
 
 on:
   push:
@@ -23,9 +23,12 @@ jobs:
     - name: Build
       run: npm run build:dev
 
+    - name: Nginx
+      run: cp -r ./dist/angular-deploy-github-self-host/* /usr/share/nginx/html 
+
     - name: Deploy
       if: success()
-      uses: peaceiris/actions-gh-pages@v4
+      uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: dist/
