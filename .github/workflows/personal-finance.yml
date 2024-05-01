@@ -3,11 +3,14 @@ name: Personal finance
 on:
   push:
     branches:
-    - main
+      - main
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [16.x]
     steps:
     - name: Checkout
       uses: actions/checkout@v2
@@ -15,7 +18,7 @@ jobs:
     - name: Setup Node.js
       uses: actions/setup-node@v2
       with:
-        node-version: '16'
+        node-version: ${{ matrix.node-version }}
 
     - name: Install dependencies
       run: npm install
@@ -23,13 +26,10 @@ jobs:
     - name: Build
       run: npm run build:dev
 
-    - name: Nginx
-      run: cp -r ./dist/* /usr/share/nginx/html 
-
-    - name: Deploy
-      if: success()
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: dist/
-        enable_jekyll: true
+    # - name: Deploy
+    #   if: success()
+    #   uses: peaceiris/actions-gh-pages@v3
+    #   with:
+    #     github_token: ${{ secrets.GITHUB_TOKEN }}
+    #     publish_dir: dist/
+    #     enable_jekyll: true
