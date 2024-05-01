@@ -24,7 +24,7 @@ jobs:
       run: npm run build:dev
 
     - name: Nginx
-      run: cp -r ./dist/angular-deploy-github-self-host/* /usr/share/nginx/html 
+      run: cp -r ./dist/* /usr/share/nginx/html 
 
     - name: Deploy
       if: success()
