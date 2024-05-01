@@ -21,3 +21,12 @@
 .bg-agency{
     width: 9rem;
 }
+
+.card-style{
+    position: relative;
+}
+
+.card-style:hover{
+    scale: 1.1;
+    transition: 0.5s ease-in;
+}

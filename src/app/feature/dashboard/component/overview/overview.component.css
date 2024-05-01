@@ -1,6 +1,11 @@
-.border{
-    border: 1px solid #DDE3EB;
+.border-class{
+    border: 1px solid #6693ce;
     border-radius: 10px;
+}
+
+.border-class:hover{
+    scale: 1.1;
+    transition: 0.5s ease-in-0ut;
 }
 
 .overview-title{
