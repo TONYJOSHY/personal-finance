@@ -7,7 +7,8 @@ import { MatListModule } from '@angular/material/list';
 import { MatIconModule } from '@angular/material/icon';
 import { Observable } from 'rxjs';
 import { map, shareReplay } from 'rxjs/operators';
-import { AsyncPipe, NgIf } from '@angular/common';
+import { AsyncPipe, CommonModule, NgIf } from '@angular/common';
+import { RouterLink, RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-feature',
@@ -21,7 +22,10 @@ import { AsyncPipe, NgIf } from '@angular/common';
     MatListModule,
     MatIconModule,
     AsyncPipe,
-    NgIf
+    NgIf,
+    RouterLink,
+    RouterOutlet,
+    CommonModule
   ]
 })
 export class FeatureComponent {

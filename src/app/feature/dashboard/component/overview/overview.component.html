@@ -1,0 +1,30 @@
+<div class="mb-5">
+    <p class="px-3 mb-4 card-title"> Overview </p>
+    <div class="row mx-0">
+        <div class="col-12 col-sm-6 col-lg" 
+            *ngFor="let item of overviewList">
+            <div class="row p-4 border mx-0">
+                <div class="col-12">
+                    <p class="overview-title mb-4"> {{ item.title }} </p>
+                    <div class="d-flex align-items-center justify-content-between">
+                        <p class="mb-0 overview-amount"> 
+                            <span *ngIf="item.cashFlow === CASHFLOW.POSITIVE">+</span> 
+                            <span *ngIf="item.cashFlow === CASHFLOW.NEGATIVE">-</span> 
+                            {{ item.amount | currency: '$' }} </p>
+                        <p class="mb-0" [ngClass]="{
+                            'color-green': item.difference === DIFFENCE.INCREMENT,
+                            'color-red': item.difference === DIFFENCE.DECREMENT
+                        }"> 
+                            <span *ngIf="item.difference === DIFFENCE.INCREMENT">
+                                <mat-icon aria-label="Side nav toggle icon">arrow_upward</mat-icon>
+                            </span> 
+                            <span *ngIf="item.difference === DIFFENCE.DECREMENT">
+                                <mat-icon aria-label="Side nav toggle icon">arrow_downward</mat-icon> 
+                            </span> 
+                            {{ item.change }} </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

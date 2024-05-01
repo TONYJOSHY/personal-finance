@@ -1,0 +1,18 @@
+<div class="mb-5">
+    <p class="px-3 mb-4 card-title"> Your Cards </p>
+    <div class="row mx-0">
+        <div class="col-12 col-sm-6 col-lg-3 position-relative pb-4" *ngFor="let item of cardList">
+            <img [src]="item.image" alt="" class="w-100">
+            <div class="position-data">
+                <img src="assets/images/agency-light.svg" alt="" class="bg-agency">
+                <div>
+                    <div class="d-flex align-items-center justify-content-between" >
+                        <p class="text-name"> {{ item.name }} </p>
+                        <p class="text-name"> {{ item.expiry }} </p>
+                    </div>
+                    <p class="mb-0 text-number"> {{ item.number }} </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

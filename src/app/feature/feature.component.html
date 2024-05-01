@@ -1,27 +1,48 @@
+<mat-toolbar>
+  <div class="header-container">
+    <img src="assets/images/agency.svg" alt="" class="logo">
+    <div class="top-bar" *ngIf="!(isHandset$ | async)">
+      <a mat-list-item [routerLink]="['dashboard']" 
+        routerLinkActive="router-link-active">Dashboard</a>
+      <a mat-list-item [routerLink]="['accounts']" 
+        routerLinkActive="router-link-active">Accounts</a>
+      <a mat-list-item [routerLink]="['spending']" 
+        routerLinkActive="router-link-active">Spendings</a>
+      <a mat-list-item [routerLink]="['investment']" 
+        routerLinkActive="router-link-active">Investments</a>
+      <a mat-list-item [routerLink]="['transaction']" 
+        routerLinkActive="router-link-active">Transactions</a>
+    </div>
+    <button
+      type="button"
+      aria-label="Toggle sidenav"
+      mat-icon-button
+      (click)="drawer.toggle()"
+      *ngIf="isHandset$ | async">
+      <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
+    </button>
+  </div>
+</mat-toolbar>
 <mat-sidenav-container class="sidenav-container">
-  <mat-sidenav #drawer class="sidenav" fixedInViewport
+  <mat-sidenav #drawer class="sidenav" fixedTopGap
       [attr.role]="(isHandset$ | async) ? 'dialog' : 'navigation'"
-      [mode]="(isHandset$ | async) ? 'over' : 'side'"
-      [opened]="(isHandset$ | async) === false">
-    <mat-toolbar>Menu</mat-toolbar>
+      [mode]="(isHandset$ | async) ? 'over' : 'push'"
+      [opened]="(isHandset$ | async) === true">
     <mat-nav-list>
-      <a mat-list-item href="#">Link 1</a>
-      <a mat-list-item href="#">Link 2</a>
-      <a mat-list-item href="#">Link 3</a>
+      <a mat-list-item [routerLink]="['dashboard']" 
+        routerLinkActive="router-link-active">Dashboard</a>
+      <a mat-list-item [routerLink]="['accounts']" 
+        routerLinkActive="router-link-active">Accounts</a>
+      <a mat-list-item [routerLink]="['spending']" 
+        routerLinkActive="router-link-active">Spendings</a>
+      <a mat-list-item [routerLink]="['investment']" 
+        routerLinkActive="router-link-active">Investments</a>
+      <a mat-list-item [routerLink]="['transaction']" 
+        routerLinkActive="router-link-active">Transactions</a>
     </mat-nav-list>
   </mat-sidenav>
   <mat-sidenav-content>
-    <mat-toolbar color="primary">
-      <button
-        type="button"
-        aria-label="Toggle sidenav"
-        mat-icon-button
-        (click)="drawer.toggle()"
-        *ngIf="isHandset$ | async">
-        <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
-      </button>
-      <span>personal-finance</span>
-    </mat-toolbar>
     <!-- Add Content Here -->
+    <router-outlet></router-outlet>
   </mat-sidenav-content>
 </mat-sidenav-container>

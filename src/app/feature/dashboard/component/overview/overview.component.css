@@ -1,0 +1,29 @@
+.border{
+    border: 1px solid #DDE3EB;
+    border-radius: 10px;
+}
+
+.overview-title{
+    font-size: 1rem;
+    font-weight: 500;
+    color: #303030;
+}
+
+.overview-amount{
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #303030;
+}
+
+.color-green{
+    color: #008000;
+}
+
+.color-red{
+    color: #F04438;
+}
+
+.mat-icon{
+    height: 14px;
+    font-size: 1rem;
+}
