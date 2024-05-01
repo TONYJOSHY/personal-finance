@@ -1,0 +1,107 @@
+{
+  "configVersion": 1,
+  "timestamp": 1714557655762,
+  "index": "https://TONYJOSHY.github.io/personal-finance/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://TONYJOSHY.github.io/personal-finance/489.f2b0f22d316085be.js",
+        "https://TONYJOSHY.github.io/personal-finance/610.bb0d7b64badf9d60.js",
+        "https://TONYJOSHY.github.io/personal-finance/623.d61312ae586b8242.js",
+        "https://TONYJOSHY.github.io/personal-finance/670.83927c78a9502ade.js",
+        "https://TONYJOSHY.github.io/personal-finance/717.c5087f816dabf6ae.js",
+        "https://TONYJOSHY.github.io/personal-finance/81.5d84b24f7ea992bf.js",
+        "https://TONYJOSHY.github.io/personal-finance/common.a798dbea368b9c41.js",
+        "https://TONYJOSHY.github.io/personal-finance/favicon.ico",
+        "https://TONYJOSHY.github.io/personal-finance/index.html",
+        "https://TONYJOSHY.github.io/personal-finance/main.84dfab4db45cdf34.js",
+        "https://TONYJOSHY.github.io/personal-finance/manifest.webmanifest",
+        "https://TONYJOSHY.github.io/personal-finance/polyfills.b5943108858ba21f.js",
+        "https://TONYJOSHY.github.io/personal-finance/runtime.bb930a7bae2933ea.js",
+        "https://TONYJOSHY.github.io/personal-finance/styles.d5b0ac2f54dd569c.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://TONYJOSHY.github.io/personal-finance/assets/icons/icon-128x128.png",
+        "https://TONYJOSHY.github.io/personal-finance/assets/icons/icon-144x144.png",
+        "https://TONYJOSHY.github.io/personal-finance/assets/icons/icon-152x152.png",
+        "https://TONYJOSHY.github.io/personal-finance/assets/icons/icon-192x192.png",
+        "https://TONYJOSHY.github.io/personal-finance/assets/icons/icon-384x384.png",
+        "https://TONYJOSHY.github.io/personal-finance/assets/icons/icon-512x512.png",
+        "https://TONYJOSHY.github.io/personal-finance/assets/icons/icon-72x72.png",
+        "https://TONYJOSHY.github.io/personal-finance/assets/icons/icon-96x96.png",
+        "https://TONYJOSHY.github.io/personal-finance/assets/images/agency-light.svg",
+        "https://TONYJOSHY.github.io/personal-finance/assets/images/agency.svg",
+        "https://TONYJOSHY.github.io/personal-finance/assets/images/card1.svg",
+        "https://TONYJOSHY.github.io/personal-finance/assets/images/card2.svg",
+        "https://TONYJOSHY.github.io/personal-finance/assets/images/card3.svg",
+        "https://TONYJOSHY.github.io/personal-finance/assets/images/card4.svg"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://TONYJOSHY.github.io/personal-finance/489.f2b0f22d316085be.js": "61e07e21ea6d00a246e1c1b6eb3fc4bb274ae0f7",
+    "https://TONYJOSHY.github.io/personal-finance/610.bb0d7b64badf9d60.js": "631b99af0b0d5abc9443a75b4849df3bd897c1be",
+    "https://TONYJOSHY.github.io/personal-finance/623.d61312ae586b8242.js": "008c403733371cd7f29e40546548481c8fb2a22b",
+    "https://TONYJOSHY.github.io/personal-finance/670.83927c78a9502ade.js": "903d687ff59ce5d7f264ccb82b3c971c2e173f74",
+    "https://TONYJOSHY.github.io/personal-finance/717.c5087f816dabf6ae.js": "3d608bc1f205b4256f8c3229f72b369043907257",
+    "https://TONYJOSHY.github.io/personal-finance/81.5d84b24f7ea992bf.js": "ae5bc8747c8640ae5097533715abc0977f35b8cc",
+    "https://TONYJOSHY.github.io/personal-finance/assets/icons/icon-128x128.png": "b1f06c7d714abb4a0cc4d1f7c954feb26826e4c4",
+    "https://TONYJOSHY.github.io/personal-finance/assets/icons/icon-144x144.png": "96a0d629765c1bc85d9263c6bc83094ca776d267",
+    "https://TONYJOSHY.github.io/personal-finance/assets/icons/icon-152x152.png": "b1fbbee3902eb96a7658e3bb006f31f78ca5a44c",
+    "https://TONYJOSHY.github.io/personal-finance/assets/icons/icon-192x192.png": "e4211163bf0911688fbfb80278d8ff4d2f77691d",
+    "https://TONYJOSHY.github.io/personal-finance/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "https://TONYJOSHY.github.io/personal-finance/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "https://TONYJOSHY.github.io/personal-finance/assets/icons/icon-72x72.png": "279825a1ac4377032ae996a1832c641e33ccf1b6",
+    "https://TONYJOSHY.github.io/personal-finance/assets/icons/icon-96x96.png": "592885efcbfee27e5e20be4fa3043589390d2740",
+    "https://TONYJOSHY.github.io/personal-finance/assets/images/agency-light.svg": "f1cc305a157b170b45cac42be33bfb2b593e7834",
+    "https://TONYJOSHY.github.io/personal-finance/assets/images/agency.svg": "24c4845935a1bc4c05fc27fb00c0f4664ac8b3af",
+    "https://TONYJOSHY.github.io/personal-finance/assets/images/card1.svg": "5938ee84d6f7677333a041bb761ffd684fcb7423",
+    "https://TONYJOSHY.github.io/personal-finance/assets/images/card2.svg": "c2b84d2432fe0b0bf219b994eca5313e86eae57a",
+    "https://TONYJOSHY.github.io/personal-finance/assets/images/card3.svg": "4832a9714e90b6e99210d4b811c4d5fb5f41b74d",
+    "https://TONYJOSHY.github.io/personal-finance/assets/images/card4.svg": "ddcda9e2f2429322ecdbb9116db4dcda07ffec37",
+    "https://TONYJOSHY.github.io/personal-finance/common.a798dbea368b9c41.js": "1d2686b0ee5f1f7537cd68fe60eeb4ec70300512",
+    "https://TONYJOSHY.github.io/personal-finance/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "https://TONYJOSHY.github.io/personal-finance/index.html": "500535b612cce92292895a1c596373c14ba329ab",
+    "https://TONYJOSHY.github.io/personal-finance/main.84dfab4db45cdf34.js": "e99d48dda89f286d0ae3930607c3cf8b101ac9de",
+    "https://TONYJOSHY.github.io/personal-finance/manifest.webmanifest": "7991b4e371339f6cfc92244b46c78f160284f256",
+    "https://TONYJOSHY.github.io/personal-finance/polyfills.b5943108858ba21f.js": "9576bfc5f2db39b5ea9cb3e4b3b9aca7398ff2a8",
+    "https://TONYJOSHY.github.io/personal-finance/runtime.bb930a7bae2933ea.js": "44a0cbfe6896e0e0a23658978d8f7b63fb40900c",
+    "https://TONYJOSHY.github.io/personal-finance/styles.d5b0ac2f54dd569c.css": "7e3414680688b99b99d7beb0e5645ae763da6610"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
